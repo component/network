@@ -1,0 +1,14 @@
+{
+  "name": "network",
+  "repo": "component/network",
+  "description": "Measure and detect changes in network performance",
+  "version": "0.0.1",
+  "keywords": ["measure", "network", "speed", "bandwidth", "detect", "performance", "perf"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

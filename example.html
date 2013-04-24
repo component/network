@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Network</title>
+</head>
+<body>
+  <script src="build/build.js"></script>
+  <script>
+    var network = require('network');
+
+    var latency = network.measure({ size: 994868 });
+
+    var url = 'http://i.cloudup.com/iSVZF2meyeA.jpg?' + Date.now();
+    var img = new Image;
+
+    img.onload = function(){
+      var res = latency();
+      console.log('%s mbps', res.mbps.toFixed(2));
+    };
+
+    img.src = url;
+  </script>
+</body>
+</html>
