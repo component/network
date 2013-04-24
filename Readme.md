@@ -1,7 +1,7 @@
 
 # network
 
-  Measure network latency.
+  Measure network latency to make dynamic adjustments to content.
 
 ## Installation
 
