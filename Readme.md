@@ -15,6 +15,16 @@
   is returned which should be called _after_ the data transfer is complete. This
   function returns the measurements:
 
+```js
+{
+  duration: 5749,
+  size: 994868,
+  bps: 1408912.01,
+  kbps: 1375.89,
+  mbps: 1.34
+}
+```
+
 ## Example
 
   The following example measures image s3 download latency, and may be used
