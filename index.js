@@ -15,7 +15,7 @@ exports.measure = function(options){
     var seconds = delta / 1000;
     var bytes = options.size;
     var bits = bytes * 8;
-    var bps = bits / seconds;
+    var bps = bits / seconds | 0;
     var kbps = bps / 1024;
     var mbps = kbps / 1024;
 
