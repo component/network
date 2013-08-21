@@ -2,7 +2,15 @@
   "name": "network-component",
   "description": "Measure and detect changes in network performance",
   "version": "0.0.1",
-  "keywords": ["measure", "network", "speed", "bandwidth", "detect", "performance", "perf"],
+  "keywords": [
+    "measure",
+    "network",
+    "speed",
+    "bandwidth",
+    "detect",
+    "performance",
+    "perf"
+  ],
   "dependencies": {},
   "development": {},
   "license": "MIT",
@@ -11,5 +19,9 @@
     "scripts": {
       "network/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/network.git"
   }
 }
